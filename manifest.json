@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "UMN Unite Summarizer",
+  "version": "1.0",
+  "description": "Summarize lectures from UMN Unite (Canvas-supported)",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "http://localhost:11434/",
+    "https://media.unite.umn.edu/*",
+    "https://canvas.umn.edu/*",
+    "https://snapnote-fa9s.onrender.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://media.unite.umn.edu/*",
+        "https://canvas.umn.edu/*"
+      ],
+      "js": ["content.js"],
+      "css": ["ui.css"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_title": "UMN Unite Summarizer"
+  }
+}
