@@ -10,7 +10,7 @@ SnapNote.AI is a **Chrome extension** that automatically summarizes lecture segm
 
 ## 🚀 Features
 
-- 🎯 Summarizes **3-minute lecture segments** based on your current video timestamp
+- 🎯 Summarizes **10-minute lecture segments** based on your current video timestamp
 - ⚡ Powered by **LLaMA models** via [OpenRouter](https://openrouter.ai)
 - 🔒 CORS-locked FastAPI relay server ensures only extension-origin requests
 - 🧠 Human-like summaries designed to mimic top-student notes
