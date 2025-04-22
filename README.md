@@ -15,13 +15,7 @@ SnapNote.AI is a **Chrome extension** that automatically summarizes lecture segm
 - 🔒 CORS-locked FastAPI relay server ensures only extension-origin requests
 - 🧠 Human-like summaries designed to mimic top-student notes
 - 📥 Summaries are cached locally for fast access and navigation
-- 🗂️ PDF/Docx export and full Q&A engine coming soon
-
----
-
-## 🖼️ Preview
-
-![SnapNote UI](https://github.com/YOUR_USERNAME/YOUR_REPO/assets/preview-image.png)
+- 🗂️ PDF/Docx export and full Q&A engine --- coming soon
 
 ---
 
