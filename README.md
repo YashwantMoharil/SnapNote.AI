@@ -1,4 +1,5 @@
-# ![SnapNote UI](./SnapNoteAi.PNG) — Chrome Extension for AI-Powered Lecture Summarization
+<img src="/SnapNoteAi.PNG" alt="SnapNote Icon" width="30" />
+#SnapNote.AI — Chrome Extension for AI-Powered Lecture Summarization
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Built With](https://img.shields.io/badge/Built_with-FastAPI%20%7C%20JavaScript%20%7C%20LLMs-9cf)
